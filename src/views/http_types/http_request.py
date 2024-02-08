@@ -2,9 +2,9 @@ from typing import Dict
 
 class HttpRequest:
     def __init__(
-            self, 
-            header: Dict = None, 
-            body: Dict = None, 
+            self,
+            header: Dict = None,
+            body: Dict = None,
             query_params: Dict = None
         ) -> None:
         self.header = header
